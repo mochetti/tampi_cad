@@ -781,6 +781,8 @@ Pin rows are offset 5mm as well
 <rectangle x1="22.606" y1="-0.254" x2="23.114" y2="0.254" layer="51" rot="R270"/>
 <text x="-1.27" y="4.064" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
 <text x="-1.27" y="-2.413" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
+<wire x1="-0.889" y1="-1.397" x2="0.762" y2="-1.397" width="0.2032" layer="51"/>
+<wire x1="0.762" y1="-1.397" x2="-0.889" y2="-1.397" width="0.2032" layer="52"/>
 <rectangle x1="-0.762" y1="1.778" x2="0.762" y2="4.572" layer="41"/>
 <rectangle x1="1.778" y1="1.778" x2="3.302" y2="4.572" layer="41"/>
 <rectangle x1="4.318" y1="1.778" x2="5.842" y2="4.572" layer="41"/>
@@ -801,8 +803,6 @@ Pin rows are offset 5mm as well
 <rectangle x1="22.098" y1="1.778" x2="23.622" y2="4.572" layer="41"/>
 <rectangle x1="19.558" y1="-2.032" x2="21.082" y2="0.762" layer="41"/>
 <rectangle x1="22.098" y1="-2.032" x2="23.622" y2="0.762" layer="41"/>
-<wire x1="-1.27" y1="0" x2="-1.27" y2="2.54" width="0.25" layer="21"/>
-<wire x1="24.13" y1="0" x2="24.13" y2="2.54" width="0.25" layer="21"/>
 </package>
 <package name="TAMPI_2X7">
 <pad name="1" x="0" y="0" drill="0.8128" shape="offset" rot="R270"/>
@@ -829,7 +829,7 @@ Pin rows are offset 5mm as well
 <rectangle x1="7.366" y1="-0.254" x2="7.874" y2="0.254" layer="51"/>
 <rectangle x1="9.906" y1="-0.254" x2="10.414" y2="0.254" layer="51"/>
 <rectangle x1="12.446" y1="-0.254" x2="12.954" y2="0.254" layer="51"/>
-<text x="-1.27" y="5.334" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
+<text x="-1.27" y="4.064" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
 <text x="-1.27" y="-2.413" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
 <pad name="13" x="15.24" y="0" drill="0.8128" shape="offset" rot="R270"/>
 <pad name="14" x="15.24" y="2.54" drill="0.8128" shape="offset" rot="R90"/>
@@ -849,8 +849,6 @@ Pin rows are offset 5mm as well
 <rectangle x1="9.398" y1="-2.032" x2="10.922" y2="0.762" layer="41"/>
 <rectangle x1="11.938" y1="-2.032" x2="13.462" y2="0.762" layer="41"/>
 <rectangle x1="14.478" y1="-2.032" x2="16.002" y2="0.762" layer="41"/>
-<wire x1="-1.27" y1="2.54" x2="-1.27" y2="0" width="0.25" layer="21"/>
-<wire x1="16.51" y1="2.54" x2="16.51" y2="0" width="0.25" layer="21"/>
 </package>
 <package name="4067_MODULE">
 <pad name="SIG" x="6.35" y="8.89" drill="1.016" diameter="1.8796"/>
@@ -909,10 +907,10 @@ Pin rows are offset 5mm as well
 <pad name="C13" x="-8.89" y="13.97" drill="0.8128" shape="long" rot="R180"/>
 <pad name="C14" x="-8.89" y="16.51" drill="0.8128" shape="long" rot="R180"/>
 <pad name="C15" x="-8.89" y="19.05" drill="0.8128" shape="long" rot="R180"/>
-<wire x1="-11.43" y1="21.59" x2="8.89" y2="21.59" width="0.25" layer="21"/>
-<wire x1="8.89" y1="21.59" x2="8.89" y2="-21.59" width="0.25" layer="21"/>
-<wire x1="8.89" y1="-21.59" x2="-11.43" y2="-21.59" width="0.25" layer="21"/>
-<wire x1="-11.43" y1="-21.59" x2="-11.43" y2="21.59" width="0.25" layer="21"/>
+<wire x1="-11.43" y1="21.59" x2="8.89" y2="21.59" width="0.127" layer="21"/>
+<wire x1="8.89" y1="21.59" x2="8.89" y2="-21.59" width="0.127" layer="21"/>
+<wire x1="8.89" y1="-21.59" x2="-11.43" y2="-21.59" width="0.127" layer="21"/>
+<wire x1="-11.43" y1="-21.59" x2="-11.43" y2="21.59" width="0.127" layer="21"/>
 <text x="-3.81" y="24.13" size="1.27" layer="25">&gt;NAME</text>
 <text x="-3.81" y="-24.13" size="1.27" layer="27">&gt;VALUE</text>
 <rectangle x1="-10.287" y1="18.288" x2="-7.493" y2="19.812" layer="41"/>
@@ -1337,9 +1335,9 @@ Pin rows are offset 5mm as well
 <text x="9.2075" y="21.9075" size="1.27" layer="21">Ver  0.1</text>
 </package>
 <package name="TAMPI_NODEMCU">
-<wire x1="15.5575" y1="23.495" x2="15.5575" y2="-27.432" width="0.25" layer="21"/>
-<wire x1="15.5575" y1="-27.432" x2="-15.5575" y2="-27.432" width="0.25" layer="21"/>
-<wire x1="-15.5575" y1="-27.432" x2="-15.5575" y2="23.495" width="0.25" layer="21"/>
+<wire x1="15.5575" y1="23.495" x2="15.5575" y2="-27.432" width="0.127" layer="21"/>
+<wire x1="15.5575" y1="-27.432" x2="-15.5575" y2="-27.432" width="0.127" layer="21"/>
+<wire x1="-15.5575" y1="-27.432" x2="-15.5575" y2="23.495" width="0.127" layer="21"/>
 <pad name="1" x="-13.97" y="17.78" drill="0.8128" shape="long"/>
 <pad name="2" x="-13.97" y="15.24" drill="0.8128" shape="long"/>
 <pad name="3" x="-13.97" y="12.7" drill="0.8128" shape="long"/>
@@ -1400,7 +1398,7 @@ Pin rows are offset 5mm as well
 <rectangle x1="12.573" y1="17.018" x2="15.367" y2="18.542" layer="41"/>
 <rectangle x1="12.573" y1="14.478" x2="15.367" y2="16.002" layer="41"/>
 <rectangle x1="12.573" y1="11.938" x2="15.367" y2="13.462" layer="41"/>
-<wire x1="-15.5575" y1="23.495" x2="15.5575" y2="23.495" width="0.25" layer="21"/>
+<wire x1="-15.5575" y1="23.495" x2="15.5575" y2="23.495" width="0.127" layer="21"/>
 </package>
 <package name="DIL16" urn="urn:adsk.eagle:footprint:917/1">
 <description>&lt;b&gt;Dual In Line Package&lt;/b&gt;</description>
@@ -1558,12 +1556,12 @@ Pin rows are offset 5mm as well
 </package>
 <package name="TAMPI_74595">
 <description>&lt;b&gt;Dual In Line Package&lt;/b&gt;</description>
-<wire x1="10.16" y1="2.921" x2="-10.16" y2="2.921" width="0.25" layer="21"/>
-<wire x1="-10.16" y1="-2.921" x2="10.16" y2="-2.921" width="0.25" layer="21"/>
-<wire x1="10.16" y1="2.921" x2="10.16" y2="-2.921" width="0.25" layer="21"/>
-<wire x1="-10.16" y1="2.921" x2="-10.16" y2="1.016" width="0.25" layer="21"/>
-<wire x1="-10.16" y1="-2.921" x2="-10.16" y2="-1.016" width="0.25" layer="21"/>
-<wire x1="-10.16" y1="1.016" x2="-10.16" y2="-1.016" width="0.25" layer="21" curve="-180"/>
+<wire x1="10.16" y1="2.921" x2="-10.16" y2="2.921" width="0.1524" layer="21"/>
+<wire x1="-10.16" y1="-2.921" x2="10.16" y2="-2.921" width="0.1524" layer="21"/>
+<wire x1="10.16" y1="2.921" x2="10.16" y2="-2.921" width="0.1524" layer="21"/>
+<wire x1="-10.16" y1="2.921" x2="-10.16" y2="1.016" width="0.1524" layer="21"/>
+<wire x1="-10.16" y1="-2.921" x2="-10.16" y2="-1.016" width="0.1524" layer="21"/>
+<wire x1="-10.16" y1="1.016" x2="-10.16" y2="-1.016" width="0.1524" layer="21" curve="-180"/>
 <pad name="1" x="-8.89" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
 <pad name="2" x="-6.35" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
 <pad name="7" x="6.35" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
@@ -2409,21 +2407,21 @@ Pin rows are offset 5mm as well
 </package>
 <package name="TAMPI_C2.5-3">
 <description>&lt;B&gt;MKS2&lt;/B&gt;, 5 x 3 mm, grid 2.54 mm</description>
-<wire x1="-2.159" y1="1.524" x2="2.159" y2="1.524" width="0.25" layer="21"/>
-<wire x1="2.159" y1="-1.524" x2="-2.159" y2="-1.524" width="0.25" layer="21"/>
-<wire x1="2.413" y1="1.27" x2="2.413" y2="-1.27" width="0.25" layer="21"/>
-<wire x1="-2.413" y1="1.27" x2="-2.413" y2="-1.27" width="0.25" layer="21"/>
-<wire x1="2.159" y1="1.524" x2="2.413" y2="1.27" width="0.25" layer="21" curve="-90"/>
-<wire x1="-2.413" y1="1.27" x2="-2.159" y2="1.524" width="0.25" layer="21" curve="-90"/>
-<wire x1="2.159" y1="-1.524" x2="2.413" y2="-1.27" width="0.25" layer="21" curve="90"/>
-<wire x1="-2.413" y1="-1.27" x2="-2.159" y2="-1.524" width="0.25" layer="21" curve="90"/>
+<wire x1="-2.159" y1="1.524" x2="2.159" y2="1.524" width="0.1524" layer="21"/>
+<wire x1="2.159" y1="-1.524" x2="-2.159" y2="-1.524" width="0.1524" layer="21"/>
+<wire x1="2.413" y1="1.27" x2="2.413" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="-2.413" y1="1.27" x2="-2.413" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="2.159" y1="1.524" x2="2.413" y2="1.27" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-2.413" y1="1.27" x2="-2.159" y2="1.524" width="0.1524" layer="21" curve="-90"/>
+<wire x1="2.159" y1="-1.524" x2="2.413" y2="-1.27" width="0.1524" layer="21" curve="90"/>
+<wire x1="-2.413" y1="-1.27" x2="-2.159" y2="-1.524" width="0.1524" layer="21" curve="90"/>
 <wire x1="1.27" y1="0" x2="0.381" y2="0" width="0.1524" layer="51"/>
-<wire x1="0.381" y1="0" x2="0.254" y2="0" width="0.25" layer="21"/>
-<wire x1="0.254" y1="0" x2="0.254" y2="0.762" width="0.25" layer="21"/>
-<wire x1="0.254" y1="0" x2="0.254" y2="-0.762" width="0.25" layer="21"/>
-<wire x1="-0.254" y1="0.762" x2="-0.254" y2="0" width="0.25" layer="21"/>
-<wire x1="-0.254" y1="0" x2="-0.254" y2="-0.762" width="0.25" layer="21"/>
-<wire x1="-0.254" y1="0" x2="-0.381" y2="0" width="0.25" layer="21"/>
+<wire x1="0.381" y1="0" x2="0.254" y2="0" width="0.1524" layer="21"/>
+<wire x1="0.254" y1="0" x2="0.254" y2="0.762" width="0.254" layer="21"/>
+<wire x1="0.254" y1="0" x2="0.254" y2="-0.762" width="0.254" layer="21"/>
+<wire x1="-0.254" y1="0.762" x2="-0.254" y2="0" width="0.254" layer="21"/>
+<wire x1="-0.254" y1="0" x2="-0.254" y2="-0.762" width="0.254" layer="21"/>
+<wire x1="-0.254" y1="0" x2="-0.381" y2="0" width="0.1524" layer="21"/>
 <wire x1="-0.381" y1="0" x2="-1.27" y2="0" width="0.1524" layer="51"/>
 <pad name="1" x="-1.27" y="0" drill="0.8128" shape="long" rot="R90"/>
 <pad name="2" x="1.27" y="0" drill="0.8128" shape="long" rot="R90"/>
@@ -2447,27 +2445,27 @@ Pin rows are offset 5mm as well
 <text x="-1.397" y="-2.667" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
 <rectangle x1="-0.762" y1="-1.397" x2="0.762" y2="1.397" layer="41"/>
 <rectangle x1="1.778" y1="-1.397" x2="3.302" y2="1.397" layer="41"/>
-<wire x1="-1.27" y1="0.635" x2="-1.27" y2="-0.635" width="0.25" layer="21"/>
-<wire x1="3.81" y1="0.635" x2="3.81" y2="-0.635" width="0.25" layer="21"/>
+<wire x1="-1.27" y1="0.635" x2="-1.27" y2="-0.635" width="0.127" layer="21"/>
+<wire x1="3.81" y1="0.635" x2="3.81" y2="-0.635" width="0.127" layer="21"/>
 </package>
 <package name="TAMPI_TP4056">
 <description>&lt;b&gt;Protected Lithium Battery 5V Charger&lt;/b&gt; with micro-USB connector</description>
-<wire x1="0" y1="8.636" x2="13.97" y2="8.636" width="0.25" layer="21"/>
-<wire x1="13.97" y1="-8.636" x2="0" y2="-8.636" width="0.25" layer="21"/>
+<wire x1="0" y1="8.636" x2="13.97" y2="8.636" width="0.127" layer="21"/>
+<wire x1="13.97" y1="-8.636" x2="0" y2="-8.636" width="0.127" layer="21"/>
 <pad name="B+" x="10.795" y="3.81" drill="1.2" diameter="2.5" shape="square"/>
 <pad name="B-" x="10.795" y="-3.81" drill="1.2" diameter="2.5" shape="square"/>
-<text x="8.255" y="3.81" size="1.25" layer="21" font="vector" ratio="20" align="center-right">B+</text>
-<text x="8.255" y="-3.81" size="1.25" layer="21" font="vector" ratio="20" align="center-right">B-</text>
+<text x="8.255" y="3.81" size="1.27" layer="21" align="center-right">B+</text>
+<text x="8.255" y="-3.81" size="1.27" layer="21" align="center-right">B-</text>
 <text x="5.08" y="10.16" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
 <text x="5.08" y="-10.16" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
-<wire x1="13.97" y1="8.636" x2="13.97" y2="-8.636" width="0.25" layer="21"/>
+<wire x1="13.97" y1="8.636" x2="13.97" y2="-8.636" width="0.127" layer="21"/>
 <pad name="OUT+" x="10.795" y="6.985" drill="1.2" diameter="2.5" shape="square"/>
 <pad name="OUT-" x="10.795" y="-6.985" drill="1.2" diameter="2.5" shape="square"/>
-<text x="8.255" y="6.985" size="1.25" layer="21" font="vector" ratio="20" align="center-right">OUT+</text>
-<text x="8.255" y="-6.985" size="1.25" layer="21" font="vector" ratio="20" align="center-right">OUT-</text>
+<text x="8.255" y="6.985" size="1.27" layer="21" align="center-right">OUT+</text>
+<text x="8.255" y="-6.985" size="1.27" layer="21" align="center-right">OUT-</text>
 <rectangle x1="9.525" y1="-8.255" x2="12.065" y2="-2.54" layer="41"/>
 <rectangle x1="9.525" y1="2.54" x2="12.065" y2="8.255" layer="41"/>
-<wire x1="0" y1="8.636" x2="0" y2="-8.636" width="0.25" layer="21"/>
+<wire x1="0" y1="8.636" x2="0" y2="-8.636" width="0.127" layer="21"/>
 </package>
 <package name="DC-DC-STEP-UP-MT3608">
 <description>&lt;b&gt;DC/DC Step-Up Regulator&lt;/b&gt; based on &lt;b&gt;MT3608&lt;/b&gt; chip</description>
@@ -2492,24 +2490,24 @@ Pin rows are offset 5mm as well
 </package>
 <package name="TAMPI_MT3608">
 <description>&lt;b&gt;DC/DC Step-Up Regulator&lt;/b&gt; based on &lt;b&gt;MT3608&lt;/b&gt; chip</description>
-<wire x1="-17.78" y1="8.255" x2="17.78" y2="8.255" width="0.25" layer="21"/>
-<wire x1="17.78" y1="8.255" x2="17.78" y2="-8.255" width="0.25" layer="21"/>
-<wire x1="17.78" y1="-8.255" x2="-17.78" y2="-8.255" width="0.25" layer="21"/>
-<wire x1="-17.78" y1="-8.255" x2="-17.78" y2="8.255" width="0.25" layer="21"/>
+<wire x1="-17.78" y1="8.255" x2="17.78" y2="8.255" width="0.127" layer="21"/>
+<wire x1="17.78" y1="8.255" x2="17.78" y2="-8.255" width="0.127" layer="21"/>
+<wire x1="17.78" y1="-8.255" x2="-17.78" y2="-8.255" width="0.127" layer="21"/>
+<wire x1="-17.78" y1="-8.255" x2="-17.78" y2="8.255" width="0.127" layer="21"/>
 <pad name="IN+" x="15.24" y="3.81" drill="2" diameter="2.8" shape="square"/>
 <pad name="IN-" x="15.24" y="-3.81" drill="2" diameter="2.8" shape="square"/>
 <pad name="OUT-" x="-15.24" y="-3.81" drill="2" diameter="2.8" shape="square"/>
 <pad name="OUT+" x="-15.24" y="3.81" drill="2" diameter="2.8" shape="square"/>
 <text x="0" y="9.525" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-9.525" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
-<text x="15.24" y="0" size="1.25" layer="21" font="vector" ratio="20" rot="R90" align="center">IN</text>
-<text x="-15.24" y="0" size="1.25" layer="21" font="vector" ratio="20" rot="R90" align="center">OUT</text>
-<wire x1="15.24" y1="-5.715" x2="15.24" y2="-6.985" width="0.25" layer="21"/>
-<wire x1="14.605" y1="6.35" x2="15.875" y2="6.35" width="0.25" layer="21"/>
-<wire x1="-15.24" y1="5.715" x2="-15.24" y2="6.985" width="0.25" layer="21"/>
-<wire x1="15.24" y1="5.715" x2="15.24" y2="6.985" width="0.25" layer="21"/>
-<wire x1="-15.24" y1="-5.715" x2="-15.24" y2="-6.985" width="0.25" layer="21"/>
-<wire x1="-15.875" y1="6.35" x2="-14.605" y2="6.35" width="0.25" layer="21"/>
+<text x="15.24" y="0" size="1.27" layer="21" rot="R90" align="center">IN</text>
+<text x="-15.24" y="0" size="1.27" layer="21" rot="R90" align="center">OUT</text>
+<wire x1="15.24" y1="-5.715" x2="15.24" y2="-6.985" width="0.254" layer="21"/>
+<wire x1="14.605" y1="6.35" x2="15.875" y2="6.35" width="0.254" layer="21"/>
+<wire x1="-15.24" y1="5.715" x2="-15.24" y2="6.985" width="0.254" layer="21"/>
+<wire x1="15.24" y1="5.715" x2="15.24" y2="6.985" width="0.254" layer="21"/>
+<wire x1="-15.24" y1="-5.715" x2="-15.24" y2="-6.985" width="0.254" layer="21"/>
+<wire x1="-15.875" y1="6.35" x2="-14.605" y2="6.35" width="0.254" layer="21"/>
 <rectangle x1="-16.637" y1="2.413" x2="-13.843" y2="5.207" layer="41"/>
 <rectangle x1="-16.637" y1="-5.207" x2="-13.843" y2="-2.413" layer="41"/>
 <rectangle x1="13.843" y1="-5.207" x2="16.637" y2="-2.413" layer="41"/>
@@ -3246,8 +3244,8 @@ Part Number: HA-522</description>
 &lt;p&gt;Example device(s):
 &lt;ul&gt;&lt;li&gt;CONN_04&lt;/li&gt;
 &lt;/ul&gt;&lt;/p&gt;</description>
-<wire x1="-1.27" y1="0.635" x2="-1.27" y2="-0.635" width="0.25" layer="21"/>
-<wire x1="8.89" y1="0.635" x2="8.89" y2="-0.635" width="0.25" layer="21"/>
+<wire x1="-1.27" y1="0.635" x2="-1.27" y2="-0.635" width="0.2032" layer="21"/>
+<wire x1="8.89" y1="0.635" x2="8.89" y2="-0.635" width="0.2032" layer="21"/>
 <pad name="1" x="0" y="0" drill="0.8128" shape="long" rot="R90"/>
 <pad name="2" x="2.54" y="0" drill="0.8128" shape="long" rot="R90"/>
 <pad name="3" x="5.08" y="0" drill="0.8128" shape="long" rot="R90"/>
@@ -3263,11 +3261,35 @@ Part Number: HA-522</description>
 <rectangle x1="4.318" y1="-1.397" x2="5.842" y2="1.397" layer="41"/>
 <rectangle x1="6.858" y1="-1.524" x2="8.382" y2="1.397" layer="41"/>
 </package>
+<package name="TB6612FNG">
+<wire x1="-8.89" y1="7.62" x2="9.144" y2="7.62" width="0.127" layer="21"/>
+<wire x1="9.144" y1="7.62" x2="9.144" y2="-12.827" width="0.127" layer="21"/>
+<wire x1="-8.89" y1="7.62" x2="-8.89" y2="-12.827" width="0.127" layer="21"/>
+<wire x1="-8.89" y1="-12.827" x2="9.144" y2="-12.827" width="0.127" layer="21"/>
+<pad name="VM" x="-7.62" y="6.35" drill="0.7" diameter="1.6764" shape="square"/>
+<pad name="PWMA" x="7.874" y="6.35" drill="0.6" diameter="1.6764"/>
+<pad name="VCC" x="-7.62" y="3.81" drill="0.6" diameter="1.6764"/>
+<pad name="GND1" x="-7.62" y="1.27" drill="0.6" diameter="1.6764"/>
+<pad name="A1" x="-7.62" y="-1.27" drill="0.6" diameter="1.6764"/>
+<pad name="A2" x="-7.62" y="-3.81" drill="0.6" diameter="1.6764"/>
+<pad name="B2" x="-7.62" y="-6.35" drill="0.6" diameter="1.6764"/>
+<pad name="B1" x="-7.62" y="-8.89" drill="0.6" diameter="1.6764"/>
+<pad name="GND2" x="-7.62" y="-11.43" drill="0.6" diameter="1.6764"/>
+<pad name="AIN2" x="7.874" y="3.81" drill="0.6" diameter="1.6764"/>
+<pad name="AIN1" x="7.874" y="1.27" drill="0.6" diameter="1.6764"/>
+<pad name="STBY" x="7.874" y="-1.27" drill="0.6" diameter="1.6764"/>
+<pad name="BIN1" x="7.874" y="-3.81" drill="0.6" diameter="1.6764"/>
+<pad name="BIN2" x="7.874" y="-6.35" drill="0.6" diameter="1.6764"/>
+<pad name="PWMB" x="7.874" y="-8.89" drill="0.6" diameter="1.6764"/>
+<pad name="GND3" x="7.874" y="-11.43" drill="0.6" diameter="1.6764"/>
+<text x="-7.747" y="8.382" size="1.27" layer="25">&gt;NAME</text>
+<text x="-7.62" y="-15.24" size="1.27" layer="27">&gt;VALUE</text>
+</package>
 <package name="TAMPI_TB6612">
-<wire x1="-8.89" y1="10.16" x2="9.144" y2="10.16" width="0.25" layer="21"/>
-<wire x1="9.144" y1="10.16" x2="9.144" y2="-10.287" width="0.25" layer="21"/>
-<wire x1="-8.89" y1="10.16" x2="-8.89" y2="-10.287" width="0.25" layer="21"/>
-<wire x1="-8.89" y1="-10.287" x2="9.144" y2="-10.287" width="0.25" layer="21"/>
+<wire x1="-8.89" y1="10.16" x2="9.144" y2="10.16" width="0.127" layer="21"/>
+<wire x1="9.144" y1="10.16" x2="9.144" y2="-10.287" width="0.127" layer="21"/>
+<wire x1="-8.89" y1="10.16" x2="-8.89" y2="-10.287" width="0.127" layer="21"/>
+<wire x1="-8.89" y1="-10.287" x2="9.144" y2="-10.287" width="0.127" layer="21"/>
 <pad name="VM" x="-7.62" y="8.89" drill="0.8128" shape="long"/>
 <pad name="PWMA" x="7.874" y="8.89" drill="0.8128" shape="long"/>
 <pad name="VCC" x="-7.62" y="6.35" drill="0.8128" shape="long"/>
@@ -3958,8 +3980,8 @@ Part Number: HA-522</description>
 &lt;p&gt;Example device(s):
 &lt;ul&gt;&lt;li&gt;CONN_03&lt;/li&gt;
 &lt;/ul&gt;&lt;/p&gt;</description>
-<wire x1="-1.27" y1="0.635" x2="-1.27" y2="-0.635" width="0.25" layer="21"/>
-<wire x1="6.35" y1="0.635" x2="6.35" y2="-0.635" width="0.25" layer="21"/>
+<wire x1="-1.27" y1="0.635" x2="-1.27" y2="-0.635" width="0.2032" layer="21"/>
+<wire x1="6.35" y1="0.635" x2="6.35" y2="-0.635" width="0.2032" layer="21"/>
 <pad name="1" x="0" y="0" drill="0.8128" shape="long" rot="R90"/>
 <pad name="2" x="2.54" y="0" drill="0.8128" shape="long" rot="R90"/>
 <pad name="3" x="5.08" y="0" drill="0.8128" shape="long" rot="R90"/>
@@ -4007,18 +4029,18 @@ Part Number: HA-522</description>
 <wire x1="-1.524" y1="0" x2="-1.1391" y2="-1.0125" width="0.1524" layer="51" curve="41.633208"/>
 <wire x1="1.1571" y1="0.9918" x2="1.524" y2="0" width="0.1524" layer="51" curve="-40.601165"/>
 <wire x1="1.1708" y1="-0.9756" x2="1.524" y2="0" width="0.1524" layer="51" curve="39.80361"/>
-<wire x1="0" y1="1.524" x2="1.2401" y2="0.8858" width="0.25" layer="21" curve="-54.461337"/>
-<wire x1="-1.2192" y1="0.9144" x2="0" y2="1.524" width="0.25" layer="21" curve="-53.130102"/>
-<wire x1="0" y1="-1.524" x2="1.203" y2="-0.9356" width="0.25" layer="21" curve="52.126876"/>
-<wire x1="-1.203" y1="-0.9356" x2="0" y2="-1.524" width="0.25" layer="21" curve="52.126876"/>
+<wire x1="0" y1="1.524" x2="1.2401" y2="0.8858" width="0.1524" layer="21" curve="-54.461337"/>
+<wire x1="-1.2192" y1="0.9144" x2="0" y2="1.524" width="0.1524" layer="21" curve="-53.130102"/>
+<wire x1="0" y1="-1.524" x2="1.203" y2="-0.9356" width="0.1524" layer="21" curve="52.126876"/>
+<wire x1="-1.203" y1="-0.9356" x2="0" y2="-1.524" width="0.1524" layer="21" curve="52.126876"/>
 <wire x1="-0.635" y1="0" x2="0" y2="0.635" width="0.1524" layer="51" curve="-90"/>
 <wire x1="-1.016" y1="0" x2="0" y2="1.016" width="0.1524" layer="51" curve="-90"/>
 <wire x1="0" y1="-0.635" x2="0.635" y2="0" width="0.1524" layer="51" curve="90"/>
 <wire x1="0" y1="-1.016" x2="1.016" y2="0" width="0.1524" layer="51" curve="90"/>
-<wire x1="0" y1="2.032" x2="1.561" y2="1.3009" width="0.25" layer="21" curve="-50.193108"/>
-<wire x1="-1.7929" y1="0.9562" x2="0" y2="2.032" width="0.25" layer="21" curve="-61.926949"/>
-<wire x1="0" y1="-2.032" x2="1.5512" y2="-1.3126" width="0.25" layer="21" curve="49.763022"/>
-<wire x1="-1.7643" y1="-1.0082" x2="0" y2="-2.032" width="0.25" layer="21" curve="60.255215"/>
+<wire x1="0" y1="2.032" x2="1.561" y2="1.3009" width="0.254" layer="21" curve="-50.193108"/>
+<wire x1="-1.7929" y1="0.9562" x2="0" y2="2.032" width="0.254" layer="21" curve="-61.926949"/>
+<wire x1="0" y1="-2.032" x2="1.5512" y2="-1.3126" width="0.254" layer="21" curve="49.763022"/>
+<wire x1="-1.7643" y1="-1.0082" x2="0" y2="-2.032" width="0.254" layer="21" curve="60.255215"/>
 <wire x1="-2.032" y1="0" x2="-1.7891" y2="0.9634" width="0.254" layer="51" curve="-28.301701"/>
 <wire x1="-2.032" y1="0" x2="-1.7306" y2="-1.065" width="0.254" layer="51" curve="31.60822"/>
 <pad name="A" x="-1.27" y="0" drill="0.8128" shape="long" rot="R90"/>
@@ -4030,11 +4052,11 @@ Part Number: HA-522</description>
 </package>
 <package name="TAMPI_BUZZER" urn="urn:adsk.eagle:footprint:5239/1" locally_modified="yes">
 <description>&lt;b&gt;BUZZER&lt;/b&gt;</description>
-<wire x1="3.175" y1="2.54" x2="4.191" y2="2.54" width="0.25" layer="21"/>
-<wire x1="3.683" y1="2.032" x2="3.683" y2="3.048" width="0.25" layer="21"/>
-<circle x="0" y="0" radius="6.096" width="0.25" layer="21"/>
-<circle x="0" y="0" radius="1.143" width="0.25" layer="21"/>
-<circle x="3.683" y="2.54" radius="0.889" width="0.25" layer="21"/>
+<wire x1="3.175" y1="2.54" x2="4.191" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="3.683" y1="2.032" x2="3.683" y2="3.048" width="0.1524" layer="21"/>
+<circle x="0" y="0" radius="6.096" width="0.1524" layer="21"/>
+<circle x="0" y="0" radius="1.143" width="0.1524" layer="21"/>
+<circle x="3.683" y="2.54" radius="0.889" width="0.1524" layer="21"/>
 <pad name="-" x="-3.2512" y="0" drill="0.8128" shape="long" rot="R90"/>
 <pad name="+" x="3.2512" y="0" drill="0.8128" shape="long" rot="R90"/>
 <text x="4.699" y="4.445" size="1.27" layer="25" ratio="10">&gt;NAME</text>
@@ -5606,22 +5628,22 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 type 0204, grid 7.5 mm</description>
 <wire x1="3.81" y1="0" x2="2.921" y2="0" width="0.508" layer="51"/>
 <wire x1="-3.81" y1="0" x2="-2.921" y2="0" width="0.508" layer="51"/>
-<wire x1="-2.54" y1="0.762" x2="-2.286" y2="1.016" width="0.25" layer="21" curve="-90"/>
-<wire x1="-2.54" y1="-0.762" x2="-2.286" y2="-1.016" width="0.25" layer="21" curve="90"/>
-<wire x1="2.286" y1="-1.016" x2="2.54" y2="-0.762" width="0.25" layer="21" curve="90"/>
-<wire x1="2.286" y1="1.016" x2="2.54" y2="0.762" width="0.25" layer="21" curve="-90"/>
-<wire x1="-2.54" y1="-0.762" x2="-2.54" y2="0.762" width="0.25" layer="21"/>
-<wire x1="-2.286" y1="1.016" x2="-1.905" y2="1.016" width="0.25" layer="21"/>
-<wire x1="-1.778" y1="0.889" x2="-1.905" y2="1.016" width="0.25" layer="21"/>
-<wire x1="-2.286" y1="-1.016" x2="-1.905" y2="-1.016" width="0.25" layer="21"/>
-<wire x1="-1.778" y1="-0.889" x2="-1.905" y2="-1.016" width="0.25" layer="21"/>
-<wire x1="1.778" y1="0.889" x2="1.905" y2="1.016" width="0.25" layer="21"/>
-<wire x1="1.778" y1="0.889" x2="-1.778" y2="0.889" width="0.25" layer="21"/>
-<wire x1="1.778" y1="-0.889" x2="1.905" y2="-1.016" width="0.25" layer="21"/>
-<wire x1="1.778" y1="-0.889" x2="-1.778" y2="-0.889" width="0.25" layer="21"/>
-<wire x1="2.286" y1="1.016" x2="1.905" y2="1.016" width="0.25" layer="21"/>
-<wire x1="2.286" y1="-1.016" x2="1.905" y2="-1.016" width="0.25" layer="21"/>
-<wire x1="2.54" y1="-0.762" x2="2.54" y2="0.762" width="0.25" layer="21"/>
+<wire x1="-2.54" y1="0.762" x2="-2.286" y2="1.016" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-2.54" y1="-0.762" x2="-2.286" y2="-1.016" width="0.1524" layer="21" curve="90"/>
+<wire x1="2.286" y1="-1.016" x2="2.54" y2="-0.762" width="0.1524" layer="21" curve="90"/>
+<wire x1="2.286" y1="1.016" x2="2.54" y2="0.762" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-2.54" y1="-0.762" x2="-2.54" y2="0.762" width="0.1524" layer="21"/>
+<wire x1="-2.286" y1="1.016" x2="-1.905" y2="1.016" width="0.1524" layer="21"/>
+<wire x1="-1.778" y1="0.889" x2="-1.905" y2="1.016" width="0.1524" layer="21"/>
+<wire x1="-2.286" y1="-1.016" x2="-1.905" y2="-1.016" width="0.1524" layer="21"/>
+<wire x1="-1.778" y1="-0.889" x2="-1.905" y2="-1.016" width="0.1524" layer="21"/>
+<wire x1="1.778" y1="0.889" x2="1.905" y2="1.016" width="0.1524" layer="21"/>
+<wire x1="1.778" y1="0.889" x2="-1.778" y2="0.889" width="0.1524" layer="21"/>
+<wire x1="1.778" y1="-0.889" x2="1.905" y2="-1.016" width="0.1524" layer="21"/>
+<wire x1="1.778" y1="-0.889" x2="-1.778" y2="-0.889" width="0.1524" layer="21"/>
+<wire x1="2.286" y1="1.016" x2="1.905" y2="1.016" width="0.1524" layer="21"/>
+<wire x1="2.286" y1="-1.016" x2="1.905" y2="-1.016" width="0.1524" layer="21"/>
+<wire x1="2.54" y1="-0.762" x2="2.54" y2="0.762" width="0.1524" layer="21"/>
 <pad name="1" x="-3.81" y="0" drill="0.8128" shape="long"/>
 <pad name="2" x="3.81" y="0" drill="0.8128" shape="long"/>
 <text x="-2.54" y="1.2954" size="0.9906" layer="25" ratio="10">&gt;NAME</text>
@@ -5633,14 +5655,14 @@ type 0204, grid 7.5 mm</description>
 </package>
 <package name="TAMPI_BC337" urn="urn:adsk.eagle:footprint:28459/1" locally_modified="yes">
 <description>&lt;b&gt;TO 92&lt;/b&gt;</description>
-<wire x1="-2.0946" y1="-1.651" x2="-2.6549" y2="-0.254" width="0.25" layer="21" curve="-32.781"/>
-<wire x1="-2.6549" y1="-0.254" x2="-0.7863" y2="2.5485" width="0.25" layer="21" curve="-78.3185"/>
-<wire x1="0.7863" y1="2.5484" x2="2.0945" y2="-1.651" width="0.25" layer="21" curve="-111.1"/>
-<wire x1="-2.0945" y1="-1.651" x2="2.0945" y2="-1.651" width="0.25" layer="21"/>
+<wire x1="-2.0946" y1="-1.651" x2="-2.6549" y2="-0.254" width="0.127" layer="21" curve="-32.781"/>
+<wire x1="-2.6549" y1="-0.254" x2="-0.7863" y2="2.5485" width="0.127" layer="21" curve="-78.3185"/>
+<wire x1="0.7863" y1="2.5484" x2="2.0945" y2="-1.651" width="0.127" layer="21" curve="-111.1"/>
+<wire x1="-2.0945" y1="-1.651" x2="2.0945" y2="-1.651" width="0.127" layer="21"/>
 <wire x1="-2.2537" y1="-0.254" x2="-0.2863" y2="-0.254" width="0.127" layer="51"/>
-<wire x1="-2.6549" y1="-0.254" x2="-2.2537" y2="-0.254" width="0.25" layer="21"/>
-<wire x1="-0.2863" y1="-0.254" x2="0.2863" y2="-0.254" width="0.25" layer="21"/>
-<wire x1="2.2537" y1="-0.254" x2="2.6549" y2="-0.254" width="0.25" layer="21"/>
+<wire x1="-2.6549" y1="-0.254" x2="-2.2537" y2="-0.254" width="0.127" layer="21"/>
+<wire x1="-0.2863" y1="-0.254" x2="0.2863" y2="-0.254" width="0.127" layer="21"/>
+<wire x1="2.2537" y1="-0.254" x2="2.6549" y2="-0.254" width="0.127" layer="21"/>
 <wire x1="0.2863" y1="-0.254" x2="2.2537" y2="-0.254" width="0.127" layer="51"/>
 <wire x1="-0.7863" y1="2.5485" x2="0.7863" y2="2.5485" width="0.127" layer="51" curve="-34.2936"/>
 <pad name="1" x="1.27" y="0" drill="0.8128" shape="offset"/>
@@ -5654,30 +5676,6 @@ type 0204, grid 7.5 mm</description>
 <rectangle x1="-3.302" y1="-0.762" x2="-0.508" y2="0.762" layer="41"/>
 <rectangle x1="0.508" y1="-0.762" x2="3.302" y2="0.762" layer="41"/>
 <rectangle x1="-0.762" y1="1.143" x2="0.762" y2="3.937" layer="41"/>
-</package>
-<package name="TB6612FNG">
-<wire x1="-8.89" y1="7.62" x2="9.144" y2="7.62" width="0.25" layer="21"/>
-<wire x1="9.144" y1="7.62" x2="9.144" y2="-12.827" width="0.25" layer="21"/>
-<wire x1="-8.89" y1="7.62" x2="-8.89" y2="-12.827" width="0.25" layer="21"/>
-<wire x1="-8.89" y1="-12.827" x2="9.144" y2="-12.827" width="0.25" layer="21"/>
-<pad name="VM" x="-7.62" y="6.35" drill="0.7" diameter="1.6764" shape="square"/>
-<pad name="PWMA" x="7.874" y="6.35" drill="0.6" diameter="1.6764"/>
-<pad name="VCC" x="-7.62" y="3.81" drill="0.6" diameter="1.6764"/>
-<pad name="GND1" x="-7.62" y="1.27" drill="0.6" diameter="1.6764"/>
-<pad name="A1" x="-7.62" y="-1.27" drill="0.6" diameter="1.6764"/>
-<pad name="A2" x="-7.62" y="-3.81" drill="0.6" diameter="1.6764"/>
-<pad name="B2" x="-7.62" y="-6.35" drill="0.6" diameter="1.6764"/>
-<pad name="B1" x="-7.62" y="-8.89" drill="0.6" diameter="1.6764"/>
-<pad name="GND2" x="-7.62" y="-11.43" drill="0.6" diameter="1.6764"/>
-<pad name="AIN2" x="7.874" y="3.81" drill="0.6" diameter="1.6764"/>
-<pad name="AIN1" x="7.874" y="1.27" drill="0.6" diameter="1.6764"/>
-<pad name="STBY" x="7.874" y="-1.27" drill="0.6" diameter="1.6764"/>
-<pad name="BIN1" x="7.874" y="-3.81" drill="0.6" diameter="1.6764"/>
-<pad name="BIN2" x="7.874" y="-6.35" drill="0.6" diameter="1.6764"/>
-<pad name="PWMB" x="7.874" y="-8.89" drill="0.6" diameter="1.6764"/>
-<pad name="GND3" x="7.874" y="-11.43" drill="0.6" diameter="1.6764"/>
-<text x="-7.747" y="8.382" size="1.27" layer="25">&gt;NAME</text>
-<text x="-7.62" y="-15.24" size="1.27" layer="27">&gt;VALUE</text>
 </package>
 </packages>
 <packages3d>
